@@ -1,39 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Hoteles Favoritos/title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">LuxuryStay</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="favorito.html" class="active">Tu Hotel Favorito</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Favorito</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="favorito.html" class="active">Tu Hotel Favorito</a>
+      <a href="contacto.html">Contáctanos</a>
+    </nav>
 
-    <main class="section">
-        <h2>Tu Hotel Favorito</h2>
-        <div class="card-container">
-            <div class="hotel-card">
-                <div class="hotel-img" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff43c63fed77?auto=format&fit=crop&w=500&q=80');"></div>
-                <div class="hotel-info">
-                    <h3>Grand Resort & Spa</h3>
-                    <p>Ubicado frente al mar con las mejores vistas del amanecer.</p>
-                    <span class="price">$250 / noche</span>
-                    <button class="btn-card">Reservar ahora</button>
-                </div>
-            </div>
+    <main>
+      <h2>Tu Hotel Favorito</h2>
+      <p>Este es el lugar más elegido por nuestros usuarios.</p>
+
+      <div class="hotel-card">
+        <img
+          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500"
+          alt="Hotel"
+          class="hotel-img"
+        />
+        <div class="hotel-info">
+          <h3>Grand Resort & Spa</h3>
+          <p>Vistas increíbles y servicio de primera clase.</p>
+          <p><strong>$200 / noche</strong></p>
+          <button class="btn">Reservar Ahora</button>
         </div>
+      </div>
+      <div class="hotel-card">
+        <img
+          src="https://foodandpleasure.com/wp-content/uploads/2020/10/65345792-h1-facb_angular_pool_view_300dpi.jpg"
+          alt="Hotel"
+          class="hotel-img"
+        />
+
+        <div class="hotel-info">
+          <h3>Grand Resort & Spa</h3>
+          <p>Vistas increíbles y servicio de primera clase.</p>
+          <p><strong>$200 / noche</strong></p>
+          <button class="btn">Reservar Ahora</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img
+          src="https://digital.ihg.com/is/image/ihg/holiday-inn-lima-5363050982-2x1?size=700,0"
+          alt="Hotel"
+          class="hotel-img"
+        />
+
+        <div class="hotel-info">
+          <h3>Grand Resort & Spa</h3>
+          <p>Vistas increíbles y servicio de primera clase.</p>
+          <p><strong>$200 / noche</strong></p>
+          <button class="btn">Reservar Ahora</button>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 LuxuryStay</p>
+      <p>Tu hotel a mejor precio</p>
     </footer>
-</body>
+  </body>
 </html>
