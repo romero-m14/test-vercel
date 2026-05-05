@@ -11,6 +11,7 @@ export default defineConfig({
         input:{
             main: resolve(__dirname, 'index.html'),
             prueba: resolve(__dirname, 'prueba.html'),
+            about: resolve(__dirname, 'about.html')
         }
     }
   }
